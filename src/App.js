@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+
+//components
+import Home from './Components/Home';
+import Navigation from './Components/Navigation';
+import Footer from './Components/Footer';
+
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+
+//bootstrap link
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Events from './Components/Events';
+import Ngo_profile from './Components/Ngo_profile';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+          <Navigation/>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/events" element={<Events/>} />
+          <Route path="/ngoprof" element={<Ngo_profile/>} />
+          
+        </Routes>
+          <Footer/>
+      </Router>
+  
+    </>
   );
 }
 

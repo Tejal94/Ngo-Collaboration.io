@@ -1,0 +1,332 @@
+
+.mylogo{
+    height: 8vh;
+    width: 4vw;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.searchbar{
+    width: 17vw !important;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.mybtn1{
+    background-color: transparent;
+    margin-right: 0 !important;
+    margin-left: 7px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: medium;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+    height: 38px;
+    
+}
+
+
+.mybtn1:hover{
+    color: black;
+    background-color: white;
+   
+}
+
+
+
+/* footer start  */
+
+.footer{
+    height: 20vh;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.footer ul{
+    list-style: none;
+    margin-right: 5vh;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+    scale: 110%;
+}
+
+/* footer end  */
+
+/* home start  */
+
+.main_page{
+    height: 90vh;
+    overflow-y: hidden;
+    /* background-image: url("../images/hands_plant.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_img img{
+    height: 60vh;
+    width: 30vw;
+    border-radius: 30% 50% 80% 70%;
+    position: relative;
+    top: 10vh;
+    left: 60vw;
+    animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.quote{
+    height: 30vh;
+    width: 55vw;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: -38vh;
+    left: 3vw;
+}
+
+.quote span{
+    color: #02ac46;
+}
+
+.quote p{
+    width: 45vw;
+    padding: 8px;
+}
+
+.quote button{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260, rgb(248, 248, 79));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    /* opacity: 0.80; */
+    border: 0.5px solid black;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.login_window{
+    height: 70vh;
+    width: 35vw;
+    background-color: beige;
+    opacity: 50%;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.explainer h1{
+    font-weight: 600;
+    
+}
+
+.mycontainer{
+    height: 90vh !important;
+    width: 70vw !important;
+    margin-left: 15vw !important;
+    margin-bottom: 10vh;
+    /* overflow: hidden; */
+    color: black !important;
+}
+
+.mycontainer img{
+    height: 90vh !important;
+    width: 65vw !important;
+}
+
+.mycontainer h3,p{
+    color: black;
+    font-weight: 700;
+}
+
+.car_div2{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: left !important;
+}
+
+
+
+/* Home ends  */
+
+/* events feed start  */
+
+.sidebar{
+    height: 110vh;
+    width: 20vw;
+    border-right: 2px solid rgb(25, 94, 25);
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+    /* border-radius: 8px; */
+    background-color: rgb(6, 74, 6);
+    position: sticky;
+}
+
+.sidebar header{
+    color: white;
+    font-size: large;
+}
+
+.sidebar ul{
+    list-style: none;
+      
+}
+
+.sidebar hr{
+    width: 80%;
+    color: white;
+}
+
+.mylinks{
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.eventsFeed{
+    width: 75vw;
+    /* background-color: rgb(199, 200, 203); */
+    /* height: 20vh; */
+    /* margin-left: 20vw; */
+    /* border: 1px solid black; */
+    padding: 15px;
+}
+
+.myeventhead p{
+    font-weight: 400;
+    font-size: medium;
+    width: 30vw;
+    height: auto;
+    margin-top: 10vh;
+    margin-left: 10px;
+}
+
+.myeventhead h1{
+    width: 100%;
+    
+}
+
+.event_img{
+    position: relative;
+    top: -38vh;
+    left: 30vw;
+    height: 50vh;
+    width: 45vw;
+    animation: updown 3s linear infinite;
+}
+
+
+.mycard{
+    width: 26vw;
+    border: 2px solid #01481d !important;
+    margin-bottom: 15px;
+    position: absolute;
+}
+
+.e_icon{
+    scale: 90%;
+}
+
+.mycard img{
+    padding: 8px;
+    height: 12rem;
+}
+
+.mycard p{
+    font-size: small;
+    font-weight: 400;
+}
+
+.mycard h5{
+    color: #02ac46;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.mycard table{
+    font-size: small;
+    font-weight: 450;
+    padding: 3px;
+    border-spacing: 5px !important;
+    margin-bottom: 10px;
+}
+
+.mycard::before{
+    content: "";
+    position: absolute !important;
+    width: 0;
+    height: 100%;
+    /* background: #00F260;  
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260, rgb(248, 248, 79)); 
+    background: linear-gradient(to right, #0575E6, #00F260);  */
+    background-color: black !important;
+    opacity: 0.5 !important;
+    top: 0;
+    left: 0;
+    /* z-index: 10000; */
+    transition: 0.3s ease-in-out;
+}
+
+.mycard:hover{
+    /* opacity: 0; */
+}
+
+.mycard::before{
+    background-color: #0575E6;
+    transition: 0.3s all;
+}
+
+.overlay{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* events feed ends  */
+
+
+/* ngo profile start  */
+
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(164, 250, 176);
+    z-index: 99;
+    border-bottom: 1px solid rgb(25, 94, 25);
+}
+
+.profile_dp{
+    height: 8rem;
+    width: 7rem;
+    z-index: 1000;
+    overflow: visible;
+    position: relative;
+    top: -8vh;
+    left: 20vw;
+    /* background-color: blue; */
+    border: 1px solid rgb(25, 94, 25);
+}
